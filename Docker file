@@ -1,0 +1,3 @@
+FORM tomcat:8
+#take war and copy to webapps of tomcat
+copy target /*.war /root/opt/tomcat/webapps/
